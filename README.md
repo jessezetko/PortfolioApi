@@ -1,7 +1,7 @@
 # PortfolioApi
-This is a demo to showcase an example of a CQRS patterned C# REST APIs for my developer portfolio.
+Hello! This is a demo to showcase an example of a CQRS patterned C# REST APIs for my developer portfolio.
 
-There is a rate limit of 5 requests per 8 seconds.
+There is a rate limit created allowing a max 5 requests per 8 seconds.
 
 [API Documentation](https://www.apidog.com/apidoc/shared-defef9e6-5987-472a-a801-6f0ab747590c)
 <br/>
