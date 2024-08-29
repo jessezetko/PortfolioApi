@@ -1,5 +1,5 @@
 # PortfolioApi
-Hello! This is a demo to showcase an example of a CQRS patterned C# REST APIs for my developer portfolio.
+Hello! This is a demo to showcase an example of a CQRS patterned C# REST APIs using MediatR for my developer portfolio.
 
 There is a rate limit created allowing a max 5 requests per 8 seconds.
 
