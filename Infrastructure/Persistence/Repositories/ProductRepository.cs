@@ -1,14 +1,8 @@
-﻿using BusinessLogic.Contexts;
-using BusinessLogic.Model;
-using BusinessLogic.Repositories.Interfaces;
-using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using PortfolioApi.Domain.Models;
+using PortfolioApi.Infrastructure.Persistence.Repositories.Interfaces;
 
-namespace BusinessLogic.Repositories
+namespace PortfolioApi.Infrastructure.Persistence.Repositories
 {
     public class ProductRepository : IProductRepository
     {

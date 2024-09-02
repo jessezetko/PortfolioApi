@@ -1,11 +1,6 @@
-﻿using BusinessLogic.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using PortfolioApi.Domain.Models;
 
-namespace BusinessLogic.Repositories.Interfaces
+namespace PortfolioApi.Infrastructure.Persistence.Repositories.Interfaces
 {
     public interface IProductRepository
     {

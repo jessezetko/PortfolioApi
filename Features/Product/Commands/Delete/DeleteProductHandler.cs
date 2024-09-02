@@ -1,8 +1,7 @@
-﻿using BusinessLogic.Commands;
-using BusinessLogic.Repositories.Interfaces;
-using MediatR;
+﻿using MediatR;
+using PortfolioApi.Infrastructure.Persistence.Repositories.Interfaces;
 
-namespace BusinessLogic.Handler
+namespace PortfolioApi.Features.Product.Commands.Delete
 {
     internal class DeleteProductHandler : IRequestHandler<DeleteProductCommand, int>
     {

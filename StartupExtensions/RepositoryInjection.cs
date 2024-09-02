@@ -1,6 +1,6 @@
-﻿using BusinessLogic.Contexts;
-using BusinessLogic.Repositories.Interfaces;
-using BusinessLogic.Repositories;
+﻿using PortfolioApi.Infrastructure.Persistence;
+using PortfolioApi.Infrastructure.Persistence.Repositories;
+using PortfolioApi.Infrastructure.Persistence.Repositories.Interfaces;
 
 namespace PortfolioApi.StartupExtensions
 {

@@ -1,13 +1,7 @@
-﻿using BusinessLogic.Commands;
-using BusinessLogic.Repositories.Interfaces;
-using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MediatR;
+using PortfolioApi.Infrastructure.Persistence.Repositories.Interfaces;
 
-namespace BusinessLogic.Handler
+namespace PortfolioApi.Features.Product.Commands.Create
 {
     public class CreateProductHandler : IRequestHandler<CreateProductCommand, int>
     {

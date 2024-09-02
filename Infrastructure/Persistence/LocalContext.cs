@@ -1,13 +1,7 @@
-﻿using BusinessLogic.Model;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using PortfolioApi.Domain.Models;
 
-namespace BusinessLogic.Contexts
+namespace PortfolioApi.Infrastructure.Persistence
 {
     public class LocalContext : DbContext
     {

@@ -1,7 +1,5 @@
-using BusinessLogic.Contexts;
-using Microsoft.Extensions.DependencyInjection;
+using PortfolioApi.Infrastructure.Persistence;
 using PortfolioApi.StartupExtensions;
-using System.Runtime.InteropServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -21,6 +19,7 @@ RateLimitConfiguration.Configure(builder.Services, builder.Configuration);
 
 var app = builder.Build();
 
+// Seed db
 LocalContext.Seed(app.Services);
 
 app.UseSwagger();

@@ -1,5 +1,5 @@
-﻿using BusinessLogic.Contexts;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using PortfolioApi.Infrastructure.Persistence;
 
 namespace PortfolioApi.StartupExtensions
 {
@@ -7,7 +7,6 @@ namespace PortfolioApi.StartupExtensions
     {
         internal static void Configure(this IServiceCollection services)
         {
-            // Create local DB & Seed Data
             services.AddDbContext<LocalContext>(options =>
             {
                 options.UseInMemoryDatabase("TestDB");

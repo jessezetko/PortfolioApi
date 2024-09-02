@@ -1,13 +1,13 @@
-using BusinessLogic.Model;
-using BusinessLogic.Queries;
-using BusinessLogic.Commands;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.RateLimiting;
+using PortfolioApi.Domain.Models;
+using PortfolioApi.Features.Product.Commands.Create;
+using PortfolioApi.Features.Product.Commands.Delete;
+using PortfolioApi.Features.Product.Queries.Get;
 using Swashbuckle.AspNetCore.Annotations;
-using Microsoft.AspNetCore.Http.HttpResults;
 
-namespace PortfolioApi.api.v1.Controllers
+namespace PortfolioApi.Presentation.api.v1.Controllers
 {
     [EnableRateLimiting("fixed")]
     [ApiController]
